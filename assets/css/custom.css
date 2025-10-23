@@ -1,0 +1,61 @@
+.home .home-info,
+.home .post-entry {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+
+/* 目标：控制文章列表页上的封面图容器 */
+.post-entry .entry-cover {
+    /* 关键：使用 padding-top (或 padding-bottom) 技巧设置比例 */
+    /* 16:9 比例计算: (9 / 16) * 100% = 56.25% */
+    padding-top: 37.5%; 
+    height: 0; /* 必须设置为 0 */
+    position: relative;
+    overflow: hidden; /* 确保图片超出部分被裁剪 */
+}
+
+/* 确保图片本身覆盖整个容器 */
+.post-entry .entry-cover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 确保图片覆盖整个容器，超出部分被裁剪 */
+}
+
+/* （可选）如果想控制文章单页上的封面图 */
+.post-single .entry-cover {
+    /* 4:3 比例计算: (3 / 4) * 100% = 75% */
+    padding-top: 37.5%; 
+    height: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.post-single .entry-cover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home .post-entry:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) {
+    .home .home-info,
+    .home .post-entry {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+}
