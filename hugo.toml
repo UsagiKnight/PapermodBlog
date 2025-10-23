@@ -11,6 +11,12 @@ copyright = "© 2025 UsagiKnight. All rights reserved"
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
 
+  [params.assets]
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon-96x96.png"
+    favicon32x32 = "/favicon-96x96.png"
+    apple_touch_icon = "/apple-touch-icon.png"
+
   [params.homeInfoParams]
     Title = "叼烟斗的乌萨奇"
     Content = "此去必经年，荒野寒暑换红颜。 往事散云烟，十寸光阴换一钱。"
