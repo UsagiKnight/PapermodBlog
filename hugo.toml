@@ -1,6 +1,6 @@
 baseURL = 'https://UsagiKnight.github.io/PapermodBlog/'
 languageCode = 'zh-cn'
-title = 'Usagi'
+title = 'UsagiKnight'
 theme = 'PaperMod'
 copyright = "© 2025 UsagiKnight. All rights reserved"
 
