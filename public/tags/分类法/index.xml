@@ -1,38 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>分类法 on Usagi</title>
-    <link>http://localhost:1313/tags/%E5%88%86%E7%B1%BB%E6%B3%95/</link>
-    <description>Recent content in 分类法 on Usagi</description>
-    <generator>Hugo -- 0.152.1</generator>
-    <language>zh-cn</language>
-    <copyright>2025 UsagiKnight. All rights reserved</copyright>
-    <lastBuildDate>Thu, 23 Oct 2025 21:39:30 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%88%86%E7%B1%BB%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Thu, 23 Oct 2025 21:39:30 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;你好世界&#34;&gt;你好，世界！&lt;/h2&gt;
-&lt;p&gt;这是我的第一篇博文。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Markdown 语法测试文章</title>
-      <link>http://localhost:1313/posts/my-first-post-copy/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post-copy/</guid>
-      <description>&lt;h1 id=&#34;1-标题测试-heading-test&#34;&gt;1. 标题测试 (Heading Test)&lt;/h1&gt;
-&lt;h2 id=&#34;h2-次级标题&#34;&gt;H2 次级标题&lt;/h2&gt;
-&lt;h3 id=&#34;h3-三级标题&#34;&gt;H3 三级标题&lt;/h3&gt;
-&lt;h4 id=&#34;h4-四级标题&#34;&gt;H4 四级标题&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>分类法 on Usagi</title><link>https://UsagiKnight.github.io/PapermodBlog/tags/%E5%88%86%E7%B1%BB%E6%B3%95/</link><description>Recent content in 分类法 on Usagi</description><generator>Hugo -- 0.152.1</generator><language>zh-cn</language><copyright>2025 UsagiKnight. All rights reserved</copyright><lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://UsagiKnight.github.io/PapermodBlog/tags/%E5%88%86%E7%B1%BB%E6%B3%95/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown 语法测试文章</title><link>https://UsagiKnight.github.io/PapermodBlog/posts/my-first-post-copy/</link><pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><guid>https://UsagiKnight.github.io/PapermodBlog/posts/my-first-post-copy/</guid><description>&lt;h1 id="1-标题测试-heading-test"&gt;1. 标题测试 (Heading Test)&lt;/h1&gt;
+&lt;h2 id="h2-次级标题"&gt;H2 次级标题&lt;/h2&gt;
+&lt;h3 id="h3-三级标题"&gt;H3 三级标题&lt;/h3&gt;
+&lt;h4 id="h4-四级标题"&gt;H4 四级标题&lt;/h4&gt;
 &lt;hr&gt;
-&lt;h1 id=&#34;2-文本格式-text-formatting&#34;&gt;2. 文本格式 (Text Formatting)&lt;/h1&gt;
+&lt;h1 id="2-文本格式-text-formatting"&gt;2. 文本格式 (Text Formatting)&lt;/h1&gt;
 &lt;p&gt;这是普通文本，用于测试字体的&lt;strong&gt;粗体&lt;/strong&gt; (&lt;code&gt;**粗体**&lt;/code&gt;) 和&lt;em&gt;斜体&lt;/em&gt; (&lt;code&gt;*斜体*&lt;/code&gt;)。&lt;/p&gt;
 &lt;p&gt;你也可以使用组合：&lt;em&gt;&lt;strong&gt;粗斜体&lt;/strong&gt;&lt;/em&gt; (&lt;code&gt;***粗斜体***&lt;/code&gt;)。&lt;/p&gt;
 &lt;p&gt;还有 &lt;del&gt;删除线&lt;/del&gt; (&lt;code&gt;~~删除线~~&lt;/code&gt;)。&lt;/p&gt;
 &lt;p&gt;如果要测试行内代码：你可以使用 &lt;code&gt;`npm install hexo-cli -g`&lt;/code&gt; 来安装 Hexo 命令行工具。&lt;/p&gt;
-&lt;h1 id=&#34;3-列表-lists&#34;&gt;3. 列表 (Lists)&lt;/h1&gt;
+&lt;h1 id="3-列表-lists"&gt;3. 列表 (Lists)&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;无序列表 (Unordered List):&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;项目 A
@@ -49,12 +25,9 @@
 &lt;li&gt;第二步：安装 Hexo&lt;/li&gt;
 &lt;li&gt;第三步：启动服务器&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;4-代码块-code-blocks&#34;&gt;4. 代码块 (Code Blocks)&lt;/h1&gt;
+&lt;h1 id="4-代码块-code-blocks"&gt;4. 代码块 (Code Blocks)&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;标准代码块 (Standard Code Block):&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hexo clean
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hexo generate
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hexo deploy
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-  </channel>
-</rss>
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hexo clean
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hexo generate
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hexo deploy
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item></channel></rss>
