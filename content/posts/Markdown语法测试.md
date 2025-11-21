@@ -1,5 +1,5 @@
 +++
-title = "Markdown 语法测试文章"
+title = "Markdown语法测试"
 author = "Usagi"
 date = "2025-10-23"
 tags = [ "Hugo", "PaperMod", "教程", "分类法" ]

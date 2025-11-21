@@ -6,6 +6,7 @@ copyright = "© 2025 UsagiKnight. All rights reserved"
 
 [params]
   custom_css = ["css/custom.css"]
+
   ShowReadingTime = true
   ShowBreadCrumbs = true
   ShowPostNavLinks = true
